@@ -4,7 +4,6 @@ import { FiSearch } from 'react-icons/fi'
 
 export default function TopNav() {
   return(
-    <>
       <Flex justifyContent="space-between" alignItems="center" p={2} bg="#407B55" color='white'>
         <IconButton
           colorScheme='none'
@@ -18,6 +17,5 @@ export default function TopNav() {
           icon={<FiSearch size={24} />}
         />
       </Flex>
-    </>
   )
 }
